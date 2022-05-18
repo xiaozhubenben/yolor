@@ -91,6 +91,8 @@ cd /yolor
 
 </details>
 
+注意,如果是cuda11 的环境,上述docker是不能用的,还是自己来构建比较好
+内置的python 版本太低,需要提高到3.8以上 而且pytorch==1.8.0+cu111
 Colab environment
 <details><summary> <b>Expand</b> </summary>
   
